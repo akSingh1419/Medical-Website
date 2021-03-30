@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mainHeader{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  width: 220px;
+  height: 80px;
+}
+
+.mainHeader nav{
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainHeader a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.mainHeader a:hover{
+  color:red;
+  font-weight: 800;
+}
+
+.mainHeader button{
+  margin-right: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+  border-radius: 10px;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSection{
+  padding-left: 100px;
+}
+
+.rightSection{
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+.leftSection h1{
+  padding-top: 10px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.leftSection h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.leftSection button{
+  margin-right: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+  border-radius: 10px;
+}
+
+.aboutUs{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUsImg img{
+  width: 550px;
+  padding: 20px;
+}
+
+.aboutUsText h1{
+  margin-top: 12px;
+  font-size: 60px;
+}
+
+.aboutUsText hr{
+  width: 37%;
+  margin-bottom: 20px;
+  background-color: red;
+  border: 2px solid red;
+}
+
+.aboutUsText p{
+  text-align: left;
+  padding-right: 10px;
+}
+
+.aboutUsText .container {
+  background-color: rgb(192, 192, 192);
+  width: 90%;
+  /* border-radius: 15px; */
+}
+
+.aboutUsText .skill {
+  background-color: 	rgb(0, 191, 255);
+  color: white;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 20px;
+  height: 10px;
+}
+
+.aboutUsText .expDentist{
+  width: 90%;
+}
+
+.aboutUsText .modEqp{
+  width: 80%;
+}
+
+.aboutUsText .staff{
+  width: 93%;
+}
+
+.aboutUsText p{
+  color: grey;
+  margin: 20px 20px 20px 0;
+}
+
+.aboutUsText .lineText{
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUsText .lineText h2{
+  font-weight: 500;
+}
+
+.aboutUsText .lineText h3{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.lineSeparator {
+  width: 80%;
+  margin: 0 10% 10% 10%;
+  background-color: rgb(211,211,211);
+  border: 1px solid rgb(211,211,211);
+}
+
+
+.achievements{
+  margin-top: -50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.medalCards{
+  margin: -30px 30px 30px 10px;
+}
+
+.achievements h1{
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.achievements h2{
+  text-align: center;
+}
+
+#img1, #img2, #img3, #img4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+footer{
+  margin-top: -80px;
+}
+
+footer a:hover{
+  color: red;
+}
